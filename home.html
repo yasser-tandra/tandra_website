@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- The viewport is the user's visible area of a web page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TandraTech</title>
+    <!-- Reset -->
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <!-- Font Icon Library -->
+    <link rel="stylesheet" href="src/css/all.min.css">
+    <!-- Main css style file -->
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logoImg"><img src="src/images/logo.png" alt=""></a>
+        <!-- <a href="#" class="logo">TandraTech <span>.</span></a> -->
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner"> 
+        <div class="content">
+            <h2>TandraTech</h2>
+            <h1>We Soar High With Up-to-date IT Solution</h1>
+            <p>Tandra is a state of mind experienced in meditation, the state of higher consciousness between being asleep and awake. This mental state is also known as a state of "yogic drowsiness."
+                Tandra is the first one of the four main states of mind that a yogi must pass through before reaching the final state - nirvikalpa samadhi, or the non-mind.
+                In meditation, tandra is followed by yoga nidra, or the yogic sleep.</p>
+            <a href="#" class="btn">Our Projects</a>   
+        </div>
+        <div class="socials">
+           <div>
+               <a href="#" class="social"><img src="src\images\facebook.png" alt=""></a>
+               <a href="#" class="social"><img src="src\images\twitter.png" alt=""></a>
+               <a href="#" class="social"><img src="src\images\linkedin.png" alt=""></a>
+           </div> 
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Esse ratione temporibus tenetur accusantium placeat sapiente at ad,
+                    optio facere in natus, saepe sunt, necessitatibus illum non quae iure iusto fugit!. 
+                    <br> <br>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Laborum dignissimos magnam sint molestias delectus veritatis, 
+                    aliquam nesciunt odit ullam voluptates necessitatibus distinctio esse officiis quaerat similique reiciendis ea neque id!
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="src/images/img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id ="services">
+        <div class="title">
+            <h2 class="titleText">Our <span>S</span>ervices</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/images/img3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>VR3</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/images/img4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>VR4</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/images/img5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>VR5</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class ="btn">View All</a>
+        </div>
+    </section>
+    <section class="contact" id ="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contctForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Write your message here"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit"  value="Send">
+            </div>
+        </div>
+    </section>
+    <div class="copyrightText">
+        <p> Copyright &copy; 2020-<script>document.write(new Date().getFullYear())</script> TandraTech All Rights Reserved</p>
+    </div>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>
